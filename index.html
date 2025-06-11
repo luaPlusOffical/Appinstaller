@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Open Roblox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      function openRoblox() {
+        const now = Date.now();
+        window.location = "roblox://";
+        setTimeout(() => {
+          if (Date.now() - now < 2500) {
+            window.location = "https://apps.apple.com/app/roblox/id431946152";
+          }
+        }, 1500);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Open Roblox</h1>
+    <button onclick="openRoblox()">Tap Here to Launch Roblox</button>
+  </body>
+</html>
